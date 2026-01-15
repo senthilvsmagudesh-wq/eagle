@@ -11,7 +11,7 @@ const teamMembers = [
   {
     name: "Adv. William Prince",
     role: "Advocate, BABL",
-    image: "/advocate.jpg",
+    image: "/image.png",
     description: "Legal Advisor (30 Years Exp). Founding President, Tamil Nadu People's Rights Association.",
   },
   {
