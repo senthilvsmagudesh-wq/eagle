@@ -104,31 +104,7 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* External Reference */}
-          <div className={`text-center p-8 rounded-2xl relative overflow-hidden scroll-reveal-scale ${cardsVisible ? 'visible' : ''}`} style={{ transitionDelay: '450ms' }}>
-            <div className="absolute inset-0 bg-muted/50 border border-border" />
-            <div className="absolute inset-0">
-              <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=30"
-                alt=""
-                className="w-full h-full object-cover opacity-5"
-              />
-            </div>
-            <div className="relative z-10">
-              <p className="text-muted-foreground mb-4">
-                Inspired by platforms that put customers first
-              </p>
-              <a
-                href="https://www.zomato.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-primary font-medium hover:underline transition-all duration-300 hover:gap-3"
-              >
-                Learn from the best
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>

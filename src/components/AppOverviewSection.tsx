@@ -40,9 +40,8 @@ const AppOverviewSection = () => {
               Powered by Trust
             </h2>
             <p className="text-muted-foreground text-lg mb-10 leading-relaxed">
-              Shree Eagle was born from a simple idea — everyone deserves access to 
-              quality products and services at prices that don't hurt. We're not just 
-              an app; we're a movement towards fair commerce.
+              Started in September, Shree Eagle was born from a simple idea — "Normal Price for Normal People".
+              We empower shop owners to set their own prices, ensuring common people get the best rates for their daily needs.
             </p>
 
             {/* Features Grid */}

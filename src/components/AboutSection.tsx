@@ -4,21 +4,27 @@ import useScrollAnimation from "@/hooks/useScrollAnimation";
 const teamMembers = [
   {
     name: "Sabari Vasan",
-    role: "Founder & CEO",
+    role: "Proprietor",
     image: "/founder.png",
-    description: "Visionary leader committed to fair commerce and community empowerment",
+    description: "Founder of Shree Eagle Info Services in Salem. Started in September to provide fair prices for everyone.",
   },
   {
     name: "Adv. William Prince",
-    role: "Legal Advocate",
+    role: "Advocate, BABL",
     image: "/advocate.jpg",
-    description: "Ensuring transparency and compliance in every business operation",
+    description: "Legal Advisor (30 Years Exp). Founding President, Tamil Nadu People's Rights Association.",
   },
   {
-    name: "Vikram",
-    role: "Financial Auditor",
+    name: "Senthil",
+    role: "Auditor - CA (Inter)",
     image: "/auditor.jpg",
-    description: "Maintaining trust through rigorous financial accountability",
+    description: "15 Years of Experience ensuring financial trust and accountability.",
+  },
+  {
+    name: "Yathava Krishna Guptha.G",
+    role: "DIT., B.Tech (IT)",
+    image: "/yathava-krishna.jpg",
+    description: "Driving technological innovation and digital excellence for the team.",
   },
 ];
 
@@ -70,7 +76,7 @@ const AboutSection = () => {
         {/* Team Grid */}
         <div
           ref={teamRef}
-          className={`grid md:grid-cols-3 gap-8 max-w-4xl mx-auto stagger-children ${teamVisible ? 'visible' : ''}`}
+          className={`grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto stagger-children ${teamVisible ? 'visible' : ''}`}
         >
           {teamMembers.map((member, index) => (
             <div
@@ -129,7 +135,7 @@ const AboutSection = () => {
                   </div>
                   <div className="text-left">
                     <p className="font-semibold text-foreground">Sabari Vasan</p>
-                    <p className="text-sm text-muted-foreground">Founder, Shree Eagle</p>
+                    <p className="text-sm text-muted-foreground">Proprietor, Shree Eagle</p>
                   </div>
                 </div>
               </div>

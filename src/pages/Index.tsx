@@ -14,14 +14,14 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
+        <section id="about">
+          <AboutSection />
+        </section>
         <ServicesScroll />
         <section id="services">
           <CategoriesSection />
         </section>
         <AppOverviewSection />
-        <section id="about">
-          <AboutSection />
-        </section>
         <TrustSection />
         <section id="contact">
           <ContactSection />

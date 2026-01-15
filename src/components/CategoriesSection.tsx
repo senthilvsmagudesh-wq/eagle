@@ -6,37 +6,37 @@ const categories = [
   {
     icon: UtensilsCrossed,
     title: "Fresh Food",
-    description: "Delicious meals from trusted local restaurants delivered hot",
+    description: "Shop owners set their own prices. Best rates found here. Shop owner recharge: ₹10/day.",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80",
   },
   {
     icon: Cookie,
     title: "Snacks & Sweets",
-    description: "Traditional Indian snacks and sweets at fair prices",
+    description: "Buy and sell at normal prices. High quality snacks. Shop owner recharge: ₹10/day.",
     image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80",
   },
   {
     icon: Carrot,
     title: "Fresh Vegetables",
-    description: "Farm-fresh vegetables delivered straight to your doorstep",
+    description: "Direct from shop owners at their set prices. Shop owner recharge: ₹10/day.",
     image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
   },
   {
     icon: Apple,
     title: "Fruits",
-    description: "Handpicked seasonal fruits with guaranteed freshness",
+    description: "App for buying and selling fruits at normal prices. Shop owner recharge: ₹10/day.",
     image: "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=400&q=80",
   },
   {
     icon: Wrench,
     title: "Mechanic Services",
-    description: "Trusted repair services for all your home appliances",
+    description: "Find mechanics at best prices. Shop owner recharge: ₹05/day.",
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&q=80",
   },
   {
     icon: Car,
     title: "Car Mechanic",
-    description: "Professional auto care services at transparent pricing",
+    description: "Profile-based car services. Call for spares/work. Shop owner recharge: ₹05/day.",
     image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=400&q=80",
   },
 ];
