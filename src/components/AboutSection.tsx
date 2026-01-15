@@ -15,7 +15,7 @@ const teamMembers = [
     description: "Legal Advisor (30 Years Exp). Founding President, Tamil Nadu People's Rights Association.",
   },
   {
-    name: "Senthil",
+    name: "Senthilkumar",
     role: "Auditor - CA (Inter)",
     image: "/auditor.jpg",
     description: "15 Years of Experience ensuring financial trust and accountability.",
