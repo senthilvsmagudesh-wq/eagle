@@ -100,7 +100,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <h3 className="font-semibold text-foreground mb-1">Visit Us</h3>
-              <p className="text-muted-foreground text-sm">Ammapet, Salem, Tamil Nadu 636003</p>
+              <p className="text-muted-foreground text-sm">66-7 Jothi talkies road,Ammapet, Salem, Tamil Nadu 636001</p>
             </div>
           </div>
 
