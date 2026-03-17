@@ -61,7 +61,7 @@ const ContactSection = () => {
                 </div>
               </div>
               <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-              <p className="text-primary font-medium">+91 95976 73401</p>
+              <p className="text-primary font-medium">+91 63812 81124</p>
             </a>
 
             <a
