@@ -12,7 +12,8 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 400,
     distance: "2.5 km",
     isVeg: false,
-    offers: "50% off up to ₹100"
+    offers: "50% off up to ₹100",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r2",
@@ -25,7 +26,8 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 500,
     distance: "3.2 km",
     isVeg: false,
-    offers: "Free delivery"
+    offers: "Free delivery",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r3",
@@ -37,7 +39,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "20-25 mins",
     priceForTwo: 350,
     distance: "1.8 km",
-    isVeg: false
+    isVeg: false,
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r4",
@@ -50,7 +53,8 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 600,
     distance: "4.5 km",
     isVeg: false,
-    offers: "20% off"
+    offers: "20% off",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r5",
@@ -62,7 +66,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "28-33 mins",
     priceForTwo: 380,
     distance: "2.9 km",
-    isVeg: false
+    isVeg: false,
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r6",
@@ -75,7 +80,8 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 700,
     distance: "5.1 km",
     isVeg: false,
-    offers: "Free dessert on orders above ₹500"
+    offers: "Free dessert on orders above ₹500",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r7",
@@ -87,7 +93,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "25-30 mins",
     priceForTwo: 320,
     distance: "2.1 km",
-    isVeg: false
+    isVeg: false,
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r8",
@@ -100,7 +107,8 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 360,
     distance: "1.5 km",
     isVeg: false,
-    offers: "Buy 1 Get 1 on selected items"
+    offers: "Buy 1 Get 1 on selected items",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r9",
@@ -112,7 +120,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "32-37 mins",
     priceForTwo: 550,
     distance: "3.8 km",
-    isVeg: false
+    isVeg: false,
+    fssaiLicense: "XXXXXXXXXXXXXX"
   },
   {
     id: "r10",
@@ -125,6 +134,7 @@ export const restaurants: Restaurant[] = [
     priceForTwo: 280,
     distance: "1.2 km",
     isVeg: false,
-    offers: "30% off on first order"
+    offers: "30% off on first order",
+    fssaiLicense: "XXXXXXXXXXXXXX"
   }
 ];

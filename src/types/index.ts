@@ -12,6 +12,7 @@ export interface Restaurant {
   distance: string;
   isVeg: boolean;
   offers?: string;
+  fssaiLicense: string;
 }
 
 export interface FoodItem {

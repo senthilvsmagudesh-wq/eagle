@@ -152,6 +152,13 @@ const RestaurantDetail = () => {
                 🎉 {restaurant.offers}
               </div>
             )}
+
+            {/* FSSAI License */}
+            <div className="mt-3 flex items-center gap-2 text-white/70 text-xs">
+              <span className="bg-white/10 border border-white/20 px-3 py-1 rounded-full font-medium tracking-wide">
+                🛡️ FSSAI License No: {restaurant.fssaiLicense}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -263,6 +270,13 @@ const RestaurantDetail = () => {
             );
           })
         )}
+      </div>
+
+      {/* FSSAI Note */}
+      <div className="container mx-auto px-4 pb-4">
+        <p className="text-xs text-muted-foreground text-center">
+          🛡️ FSSAI License No: {restaurant.fssaiLicense} &nbsp;|&nbsp; {restaurant.name} is licensed and compliant with food safety regulations
+        </p>
       </div>
 
       {/* Sticky Cart Bar */}
