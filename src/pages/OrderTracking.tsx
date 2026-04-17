@@ -92,7 +92,7 @@ const OrderTracking = () => {
           <div className="flex items-center gap-2 bg-primary/5 border border-primary/20 rounded-xl px-4 py-3 mb-8">
             <Bell className="w-4 h-4 text-primary flex-shrink-0" />
             <p className="text-xs text-muted-foreground">
-              We'll notify you at <span className="font-semibold text-foreground">+91-95976-73401</span> when tracking goes live
+              We'll notify you at <span className="font-semibold text-foreground">+91 63812 81124</span> when tracking goes live
             </p>
           </div>
 

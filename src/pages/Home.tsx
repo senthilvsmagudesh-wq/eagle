@@ -347,9 +347,9 @@ const Home = () => {
             <div>
               <h3 className="font-bold text-base mb-4">Contact Us</h3>
               <div className="space-y-3 text-sm text-gray-400">
-                <a href="tel:+919597673401" className="flex items-center gap-2 hover:text-white transition-colors">
+                <a href="tel:+916381281124" className="flex items-center gap-2 hover:text-white transition-colors">
                   <Phone className="w-4 h-4" />
-                  <span>+91-95976-73401</span>
+                  <span>+91 63812 81124</span>
                 </a>
                 <a href="mailto:contact@shreeeagle.com" className="flex items-center gap-2 hover:text-white transition-colors">
                   <Mail className="w-4 h-4" />
