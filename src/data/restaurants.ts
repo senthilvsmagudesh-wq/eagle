@@ -1,0 +1,130 @@
+import { Restaurant } from "@/types";
+
+export const restaurants: Restaurant[] = [
+  {
+    id: "r1",
+    name: "Biryani Blues",
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80",
+    rating: 4.5,
+    reviewCount: 2500,
+    cuisines: ["Biryani", "Mughlai", "North Indian"],
+    deliveryTime: "25-30 mins",
+    priceForTwo: 400,
+    distance: "2.5 km",
+    isVeg: false,
+    offers: "50% off up to ₹100"
+  },
+  {
+    id: "r2",
+    name: "Paradise Biryani",
+    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&q=80",
+    rating: 4.7,
+    reviewCount: 5200,
+    cuisines: ["Biryani", "Hyderabadi", "Kebabs"],
+    deliveryTime: "30-35 mins",
+    priceForTwo: 500,
+    distance: "3.2 km",
+    isVeg: false,
+    offers: "Free delivery"
+  },
+  {
+    id: "r3",
+    name: "Spice Garden",
+    image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+    rating: 4.3,
+    reviewCount: 1800,
+    cuisines: ["North Indian", "Chinese", "Biryani"],
+    deliveryTime: "20-25 mins",
+    priceForTwo: 350,
+    distance: "1.8 km",
+    isVeg: false
+  },
+  {
+    id: "r4",
+    name: "Royal Kitchen",
+    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80",
+    rating: 4.6,
+    reviewCount: 3100,
+    cuisines: ["Mughlai", "Biryani", "Tandoor"],
+    deliveryTime: "35-40 mins",
+    priceForTwo: 600,
+    distance: "4.5 km",
+    isVeg: false,
+    offers: "20% off"
+  },
+  {
+    id: "r5",
+    name: "Kolkata Biryani House",
+    image: "https://images.unsplash.com/photo-1701579231349-d7459f8e5e0e?w=800&q=80",
+    rating: 4.4,
+    reviewCount: 2200,
+    cuisines: ["Bengali", "Biryani", "Rolls"],
+    deliveryTime: "28-33 mins",
+    priceForTwo: 380,
+    distance: "2.9 km",
+    isVeg: false
+  },
+  {
+    id: "r6",
+    name: "Lucknowi Dastarkhwan",
+    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
+    rating: 4.8,
+    reviewCount: 4500,
+    cuisines: ["Awadhi", "Biryani", "Kebabs"],
+    deliveryTime: "40-45 mins",
+    priceForTwo: 700,
+    distance: "5.1 km",
+    isVeg: false,
+    offers: "Free dessert on orders above ₹500"
+  },
+  {
+    id: "r7",
+    name: "Malabar Kitchen",
+    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+    rating: 4.2,
+    reviewCount: 1500,
+    cuisines: ["South Indian", "Kerala", "Biryani"],
+    deliveryTime: "25-30 mins",
+    priceForTwo: 320,
+    distance: "2.1 km",
+    isVeg: false
+  },
+  {
+    id: "r8",
+    name: "Bombay Biryani Co.",
+    image: "https://images.unsplash.com/photo-1642821373181-696a54913e93?w=800&q=80",
+    rating: 4.5,
+    reviewCount: 2800,
+    cuisines: ["Biryani", "Street Food", "Maharashtrian"],
+    deliveryTime: "22-27 mins",
+    priceForTwo: 360,
+    distance: "1.5 km",
+    isVeg: false,
+    offers: "Buy 1 Get 1 on selected items"
+  },
+  {
+    id: "r9",
+    name: "Nawab's Kitchen",
+    image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
+    rating: 4.7,
+    reviewCount: 3900,
+    cuisines: ["Mughlai", "North Indian", "Biryani"],
+    deliveryTime: "32-37 mins",
+    priceForTwo: 550,
+    distance: "3.8 km",
+    isVeg: false
+  },
+  {
+    id: "r10",
+    name: "Biryani Junction",
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+    rating: 4.1,
+    reviewCount: 1200,
+    cuisines: ["Biryani", "Fast Food", "Chinese"],
+    deliveryTime: "18-23 mins",
+    priceForTwo: 280,
+    distance: "1.2 km",
+    isVeg: false,
+    offers: "30% off on first order"
+  }
+];

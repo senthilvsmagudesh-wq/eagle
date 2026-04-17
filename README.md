@@ -1,73 +1,164 @@
-# Welcome to your Lovable project
+# Shree Eagle - Food Delivery Service 🦅
 
-## Project info
+A modern, production-ready food ordering platform built with React, TypeScript, and Tailwind CSS. Part of the Shree Eagle ecosystem providing daily essentials at fair prices.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ Features
 
-## How can I edit this code?
+- 🔍 **Smart Search** - Search for dishes across all restaurants
+- 🏪 **Restaurant Listings** - Browse 10+ restaurants with filters and sorting
+- 📋 **Detailed Menus** - View complete menus with images, prices, and ratings
+- 🛒 **Shopping Cart** - Add items with customizations (spice level, add-ons)
+- 📍 **Address Management** - Save multiple delivery addresses
+- 💳 **Payment Options** - COD, UPI, Cards (UI only)
+- 📦 **Order Tracking** - Real-time order status with progress tracking
+- 📱 **Responsive Design** - Works perfectly on mobile, tablet, and desktop
+- 🎨 **Beautiful UI** - Modern design with smooth animations
 
-There are several ways of editing your application.
+## 🦅 About Shree Eagle
 
-**Use Lovable**
+Shree Eagle is your trusted platform for daily essentials at fair prices. Our food delivery service is part of our commitment to connecting you with quality products and services in your area.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🚀 Quick Start
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Install dependencies
+npm install
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI components
+- **React Router** - Navigation
+- **Context API** - State management
+- **Local Storage** - Cart persistence
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── pages/
+│   ├── Home.tsx              # Landing page with search
+│   ├── RestaurantList.tsx    # Search results
+│   ├── RestaurantDetail.tsx  # Restaurant menu
+│   ├── Cart.tsx              # Shopping cart
+│   ├── Checkout.tsx          # Address & payment
+│   └── OrderTracking.tsx     # Order status
+├── components/
+│   └── ui/                   # shadcn components
+├── context/
+│   └── CartContext.tsx       # Cart state management
+├── data/
+│   ├── restaurants.ts        # Mock restaurant data
+│   └── foodItems.ts          # Mock food items
+└── types/
+    └── index.ts              # TypeScript types
+```
 
-## What technologies are used for this project?
+## 🎯 Key Features Explained
 
-This project is built with:
+### Search & Discovery
+- Search by dish name (e.g., "Chicken Biryani")
+- Filter by cuisine type
+- Sort by rating, delivery time, or price
+- Each restaurant shows matching dishes
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Restaurant Details
+- High-quality food images (unique for each restaurant)
+- Veg/Non-veg indicators
+- Star ratings and reviews
+- Delivery time and cost estimates
+- Special offers and discounts
 
-## How can I deploy this project?
+### Cart & Customization
+- Add items with customizations
+- Spice level selection (Mild/Medium/Spicy)
+- Add-ons (Extra Raita, Boiled Egg, etc.)
+- Quantity adjustment
+- Real-time price calculation
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Checkout Flow
+1. Select/Add delivery address
+2. Choose payment method
+3. Review order summary
+4. Place order
 
-## Can I connect a custom domain to my Lovable project?
+### Order Tracking
+- Real-time status updates
+- Progress visualization
+- Estimated delivery time
+- Order details
 
-Yes, you can!
+## 🎨 Design Highlights
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Pink Theme** - Modern, appetizing color scheme
+- **Card-based Layout** - Clean and organized
+- **Smooth Animations** - Delightful user experience
+- **High-quality Images** - Unique images for each dish
+- **Intuitive Navigation** - Easy to understand flow
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📦 Mock Data
+
+The app includes:
+- 10 restaurants with unique identities
+- 23+ food items with different images
+- Multiple cuisines (Biryani, North Indian, Mughlai, Chinese, etc.)
+- Realistic pricing (₹180 - ₹380)
+- Star ratings and review counts
+
+## 🚀 Deployment
+
+This app is ready to deploy to:
+- **Vercel** (Recommended)
+- **Netlify**
+- **GitHub Pages**
+- Any static hosting service
+
+```bash
+# Build for production
+npm run build
+
+# The dist/ folder is ready to deploy
+```
+
+## 🔧 Customization
+
+### Add More Restaurants
+Edit `src/data/restaurants.ts` and `src/data/foodItems.ts`
+
+### Change Theme Colors
+Edit `src/index.css` - modify CSS variables
+
+### Add New Features
+The codebase is modular and easy to extend
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 📄 License
+
+This project is open source and available for personal and commercial use.
+
+## 🤝 Contributing
+
+Feel free to fork, modify, and use this project for your own food delivery application!
+
+---
+
+Built with ❤️ by Shree Eagle - Your daily essentials at fair prices
